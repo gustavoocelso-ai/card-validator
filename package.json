@@ -14,7 +14,7 @@
     "prebuild": "prettier --write .",
     "build": "tsc --declaration",
     "lint": "eslint --ext js,ts .",
-    "posttest": "npm run lint",
+    "posttest": "npm run build",
     "test": "jest"
   },
   "author": "Braintree <code@getbraintree.com> (https://www.braintreepayments.com/)",
